@@ -1,0 +1,1 @@
+Alcanza con un solo cable físico, ya que se usa un enlace "Trunk" donde esta tecnología permite añadir una etiqueta en cada paquete para indicar a que VLAN pertenece, de esta manera permite el uso de multiples redes independientes por el mismo medio.
