@@ -1,0 +1,1 @@
+Nos brindo la ventaja de no tener que configurar router por router al agregar una red mas, solo tuvimos que anunciarla y la misma red se actualizo por si misma.
