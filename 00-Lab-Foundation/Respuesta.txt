@@ -1,1 +1,0 @@
-Todo equipo que forme parte de la infraestructura (routers, switches) o brinde un servicio (servidores, impresoras) lleva IP estática y se excluye del DHCP. El pool dinámico se deja exclusivamente para los "clientes" temporales (PCs, celulares, tablets).
