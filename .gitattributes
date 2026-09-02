@@ -1,0 +1,2 @@
+# Git attributes for Packet Tracer files
+*.pkt filter=lfs diff=lfs merge=lfs -text
