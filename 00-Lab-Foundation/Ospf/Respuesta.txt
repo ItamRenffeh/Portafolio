@@ -1,0 +1,1 @@
+Si usamos un método estático para enrutar todos los paquetes que viajan por la red, al cortar un camino estos ya no van a saber por donde viajar para llegar a su destino. En cambio usando el método ospf mejoramos el Qos (Quality of Service), de esta forma al cortar un tramo, nuestra red busca otro camino optimo para enviar los paquetes a destino
