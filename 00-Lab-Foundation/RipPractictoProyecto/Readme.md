@@ -36,8 +36,4 @@ What I learned
 Next challenges
 - Introduce a route filter or passive-interface to observe changes in propagation.
 
-License
-MIT
 
-Contact / Author
-If you want changes to this README or the solution, tell me and I will update it.
