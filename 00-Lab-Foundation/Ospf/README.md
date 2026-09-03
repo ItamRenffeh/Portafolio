@@ -51,11 +51,5 @@ Screenshots and evidence
 - `Router1Tables.png` contains examples of `show` outputs from Router1.
 - `Screenshot 2026-08-25 181700.png` shows topology or additional verification evidence.
 
-Notes on content and privacy
-- The provided files appear to be classroom lab materials. Ensure you do not upload or publish real customer data or credentials. This repository keeps the original filenames; if you need me to anonymize content inside configs, I can help.
 
-License
-This lab content is provided for learning purposes. Licensed under MIT — see LICENSE in the repository (if present).
 
-Contact / Author
-If you are the author and want changes to the README or to the project structure (move to different folder, rename files, add a branch), tell me and I will update it.
