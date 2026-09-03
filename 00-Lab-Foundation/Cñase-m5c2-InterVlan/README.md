@@ -35,6 +35,3 @@ How static routes can be used to interconnect isolated segments when full dynami
 Next challenges
 
 Replace static routes with a dynamic routing protocol (OSPF) and compare convergence.
-License MIT
-
-Contact / Author If you want changes to this README or the solution, tell me and I will update it.
