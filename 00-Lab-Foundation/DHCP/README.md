@@ -37,8 +37,3 @@ Next challenges
 - Add a DHCP reservation for a specific MAC address.
 - Configure DHCP relay (ip helper-address) on a different subnet.
 
-License
-MIT
-
-Contact / Author
-If you want changes to this README or the solution, tell me and I will update it.
