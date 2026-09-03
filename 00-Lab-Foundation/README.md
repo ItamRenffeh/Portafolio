@@ -12,6 +12,3 @@ Suggested structure:
 
 Purpose:
 - Store reproducible material for networking and security practice.
-
-Contributing:
-- Open an issue to propose a new lab or improvement.
