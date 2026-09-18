@@ -1,23 +1,21 @@
-# Python-Automation-Scripts
+# Python Automation Scripts
 
-A collection of Python scripts to automate network and system administration tasks.
+A collection of standalone Python scripts built while working through *Automate the Boring Stuff*, applied to networking and security use cases. Each subfolder is a self-contained project with its own README.
 
-Expected structure:
+## Projects
 
-- scripts/
-  - backup_configs.py
-  - device_inventory.py
-  - deploy_config.py
-- requirements.txt (dependencies)
-- examples/ (usage examples)
+| Project | Chapters | Focus |
+|---|---|---|
+| [`IP Address Classifier`](./IP%20Address%20Classifier) | 1-4 | Classifies IP addresses, with input validation via `try`/`except` |
+| [`IP Frequency Counter`](./IP%20Frequency%20Counter) | 6-8 | Validates IPv4 format and counts frequency of occurrence using dictionaries |
+| [`Pattern Extractor`](./Pattern%20Extractor) | 9 | Extracts IPs, emails, and timestamps from text using regular expressions |
 
-Quick start:
-1. Create a virtual environment: `python -m venv .venv`
-2. Activate it and install dependencies: `pip install -r requirements.txt`
-3. Run a script: `python scripts/backup_configs.py --help`
+Each project builds on the last — later scripts reuse and extend validation logic introduced earlier, rather than starting from scratch.
 
-Notes:
-- Python 3.10+ is recommended.
+## Roadmap
 
-Contributing:
-- Please open a PR with clear descriptions and test examples.
+These scripts are part of an ongoing progression tied to specific book chapters (file I/O, CLI tooling with `argparse`, and API integration are next). The end goal is a single integrated log-parsing tool that combines regex extraction, file I/O, and IP reputation lookups via a public API.
+
+## Requirements
+
+Python 3.10+. No external dependencies beyond the standard library so far — any script that needs one will note it in its own README.
