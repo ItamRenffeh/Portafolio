@@ -9,13 +9,15 @@ A collection of standalone Python scripts built while working through *Automate 
 | [`IP Address Classifier`](./IP%20Address%20Classifier) | 1-4 | Classifies IP addresses, with input validation via `try`/`except` |
 | [`IP Frequency Counter`](./IP%20Frequency%20Counter) | 6-8 | Validates IPv4 format and counts frequency of occurrence using dictionaries |
 | [`Pattern Extractor`](./Pattern%20Extractor) | 9 | Extracts IPs, emails, and timestamps from text using regular expressions |
+| [`Pattern Extractor CLI`](./Pattern%20Extractor%20CLI) | 10, 12 | Upgrades the extractor to read from a file or clipboard, with calendar-validated timestamps |
+| [`Log Enricher`](./Log%20Enricher) | 13 | Scrapes a public threat feed and enriches extracted IPs with geolocation/network data via a public API |
 
 Each project builds on the last — later scripts reuse and extend validation logic introduced earlier, rather than starting from scratch.
 
 ## Roadmap
 
-These scripts are part of an ongoing progression tied to specific book chapters (file I/O, CLI tooling with `argparse`, and API integration are next). The end goal is a single integrated log-parsing tool that combines regex extraction, file I/O, and IP reputation lookups via a public API.
+Next up: converting the CLI extractor to use `argparse` with proper `--input`/`--output` flags and file output (chapter 12 done right), then the final integrated project (chapter 18) — a single tool that reads a real log file, extracts patterns with regex, enriches with an API, and exports structured results to CSV/JSON.
 
 ## Requirements
 
-Python 3.10+. No external dependencies beyond the standard library so far — any script that needs one will note it in its own README.
+Python 3.10+. Some scripts need external packages (`requests`, `beautifulsoup4`, `pyperclip`) — check each project's own README for exact dependencies.
