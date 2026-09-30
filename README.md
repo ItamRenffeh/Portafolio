@@ -8,7 +8,8 @@ A hands-on portfolio documenting my path toward becoming a Security/Networking/C
 |---|---|
 | [`Networking-Practice-Labs`](./Networking-Practice-Labs) | Cisco Packet Tracer labs covering DHCP, Inter-VLAN routing, OSPF, and RIPv2 |
 | [`Security-Incident-Reports`](./Security-Incident-Reports) | Simulated SOC incident investigations — SQL-based log forensics, impact assessment, and remediation reporting |
-| [`Python-Automation-Scripts`](./Python-Automation-Scripts) | Python scripts for network and system automation tasks |
+| [`Python-Automation-Scripts`](./Python-Automation-Scripts) | Python scripts for network and system automation, built through *Automate the Boring Stuff* |
+| [`Personal-Automation-Tools`](./Personal-Automation-Tools) | Everyday automation scripts (not tied to a book chapter) — a daily dashboard generator and a study-session launcher |
 
 ## About
 
