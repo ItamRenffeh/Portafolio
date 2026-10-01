@@ -1,0 +1,35 @@
+{
+    "metadatos": {
+        "eventos_totales": 5,
+        "emails_detectados": [
+            "admin.db@bahiablanca.gob.ar.",
+            "matias.dev@uns.edu.ar."
+        ]
+    },
+    "indicadores_red": [
+        {
+            "IP": "185.220.101.50",
+            "Pais": "DE",
+            "ISP": "Network for Tor-Exit traffic.",
+            "Peligro": "Maliciosa (100%)"
+        },
+        {
+            "IP": "45.133.1.22",
+            "Pais": "NL",
+            "ISP": "Turien en Co. Assuradeuren B.V.",
+            "Peligro": "Limpia (0%)"
+        },
+        {
+            "IP": "192.168.1.55",
+            "Pais": "Red Local",
+            "ISP": "Privado",
+            "Peligro": "Limpia (0%)"
+        },
+        {
+            "IP": "8.8.8.8",
+            "Pais": "US",
+            "ISP": "Google LLC",
+            "Peligro": "Limpia (0%)"
+        }
+    ]
+}

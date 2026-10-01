@@ -1,0 +1,5 @@
+[2[2026-10-01 02:14:00] [INFO] Conexión entrante rechazada desde 192.168.1.55.
+[2026-10-01 03:20:15] [WARNING] Múltiples intentos de login fallidos desde 8.8.8.8. Reportar a admin.db@bahiablanca.gob.ar.
+[2026-10-01 04:10:02] [CRITICO] Tráfico de botnet originado en 185.220.101.50 dirigido al puerto 443. 
+[2026-10-01 04:12:45] [ERROR] Falla de autenticación en la base de datos interna.
+[2026-10-01 04:15:00] [CRITICO] Descarga de ransomware detectada desde la IP 45.133.1.22. Contactar urgente a matias.dev@uns.edu.ar.

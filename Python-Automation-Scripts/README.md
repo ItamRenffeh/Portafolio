@@ -12,13 +12,10 @@ A collection of standalone Python scripts built while working through *Automate 
 | [`Pattern Extractor CLI`](./Pattern%20Extractor%20CLI) | 10, 12 | Reads from a file or clipboard, with calendar-validated timestamps |
 | [`Pattern Extractor (File Path Version)`](./Pattern%20Extractor%20Path) | 10 | Reads directly from a log file on disk with error handling |
 | [`Log Enricher`](./Log%20Enricher) | 13 | Scrapes a public threat feed and enriches extracted IPs with geolocation/network data via a public API |
+| [`IOC Enrichment Tool`](./IOC%20Enrichment%20Tool) | 9, 10, 12, 13, 18 | **Capstone project** — full pipeline: reads a log file, extracts IOCs with regex, enriches IPs via the AbuseIPDB threat intel API, and exports a structured CSV/JSON report |
 
-Each project builds on the last — later scripts reuse and extend validation logic introduced earlier, rather than starting from scratch.
-
-## Roadmap
-
-Still pending: converting the file-reading scripts to use `argparse` with proper `--input`/`--output` flags and real file output (chapter 12 done right), then the final integrated project (chapter 18) — a single tool that reads a real log file, extracts patterns with regex, enriches with an API, and exports structured results to CSV/JSON.
+Each project builds on the last — later scripts reuse and extend validation logic introduced earlier, rather than starting from scratch. The IOC Enrichment Tool is the integration point where all of it comes together into one finished tool.
 
 ## Requirements
 
-Python 3.10+. Some scripts need external packages (`requests`, `beautifulsoup4`, `pyperclip`) — check each project's own README for exact dependencies.
+Python 3.10+. Some scripts need external packages (`requests`, `beautifulsoup4`, `pyperclip`) and, for the capstone project, a free AbuseIPDB API key — check each project's own README for exact dependencies.
